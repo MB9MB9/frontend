@@ -1,13 +1,16 @@
 import React from 'react';
-import HotelList from './components/HotelList';
+import './App.css';
+import BookingForm from './components/BookingForm';
 
 function App() {
   return (
     <div className="App">
-      <HotelList />
+      <header className="App-header">
+        <h1>Otel Rezervasyon Sistemi</h1>
+        <BookingForm />
+      </header>
     </div>
   );
 }
 
 export default App;
-
